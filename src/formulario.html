@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulario.css">
+  <title>Formulario de Seguridad Empresarial</title>
+</head>
+<body>
+  <div class="form-container">
+    <header class="header">
+      <img src="logo.png" alt="Logo Grupo ATS" class="logo">
+      <h1>Seguridad Empresarial Grupo ATS</h1>
+      <img src="logo.png" alt="Logo Grupo ATS" class="logo">
+    </header>
+    <form action="#">
+      <div class="form-group">
+        <label for="nombreElemento">Nombre del elemento:</label>
+        <input type="text" id="nombreElemento" placeholder="Ingrese el nombre del elemento" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" placeholder="Ingrese el cargo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="horaEntrada">Hora de entrada:</label>
+        <input type="time" id="horaEntrada" required>
+      </div>
+
+      <div class="form-group">
+        <label for="personaAutorizo">Persona que autorizó:</label>
+        <input type="text" id="personaAutorizo" placeholder="Ingrese el nombre de la persona" required>
+      </div>
+
+      <div class="form-group">
+        <label for="servicio">Servicio:</label>
+        <input type="text" id="servicio" placeholder="Ingrese el servicio" required>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
